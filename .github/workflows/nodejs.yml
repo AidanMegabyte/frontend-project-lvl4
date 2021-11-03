@@ -26,4 +26,5 @@ jobs:
       - name: Run test
         run: make test
       - name: Deploy
+        uses: akhileshns/heroku-deploy@v3.12.12
         run: make deploy
