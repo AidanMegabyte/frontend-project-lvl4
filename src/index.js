@@ -11,11 +11,11 @@ if (process.env.NODE_ENV !== 'production') {
 
 const p = document.createElement('p');
 p.classList.add('card-text');
-p.textContent = 'It works!';
+p.textContent = 'Ahalay mahalay!';
 
 const h5 = document.createElement('h5');
 h5.classList.add('card-title');
-h5.textContent = 'Project frontend l4 boilerplate';
+h5.textContent = 'Abyrvalg';
 
 const cardBody = document.createElement('div');
 cardBody.classList.add('card-body');
