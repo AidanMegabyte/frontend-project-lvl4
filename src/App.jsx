@@ -6,22 +6,20 @@ import {
 } from 'react-router-dom';
 import Login from './components/Login.jsx';
 
-const App = () => {
-  return (
-    <Router>
-      <Switch>
-        <Route path='/login'>
-          <Login />
-        </Route>
-        <Route exact path='/'>
-          <h2>Chat</h2>
-        </Route>
-        <Route path='*'>
-          <h2>Not found!</h2>
-        </Route>
-      </Switch>
-    </Router>
-  );
-}
+const App = () => (
+  <Router>
+    <Switch>
+      <Route path="/login">
+        <Login />
+      </Route>
+      <Route exact path="/">
+        <h2>Chat</h2>
+      </Route>
+      <Route path="*">
+        <h2>Not found!</h2>
+      </Route>
+    </Switch>
+  </Router>
+);
 
 export default App;
